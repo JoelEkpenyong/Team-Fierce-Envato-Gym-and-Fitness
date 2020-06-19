@@ -67,6 +67,3 @@
     background-color: #46344E;
     border-radius: 5px;
 }
-a:not([href]) {
-    display: none;
-}

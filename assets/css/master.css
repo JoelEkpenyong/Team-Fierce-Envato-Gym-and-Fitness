@@ -24,6 +24,7 @@ footer .media-icons a{
     background-color: var(--secondary);
     border-radius: 50%;
     padding: .2em .5em;
+    margin-right: .9em;
 }
 /* navbar hover effect */
 .nav2 li a:hover{
@@ -139,6 +140,12 @@ footer .media-icons a{
     }
     #form form{
         width: 80%;
+    }
+    .search-bar{
+        width: 200px;
+    }
+    .search-btn{
+        padding-left: 0;
     }
 }
 @media screen and (max-width:400px){
