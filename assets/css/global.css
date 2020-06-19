@@ -1,0 +1,72 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root{
+    --primary: #FAED26;
+    --secondary:#FFFDFD;
+    --secondary-dark:#9D8D8F;
+    --dark:#131313;
+    --gray:#5A5560;
+}
+/* text styles */
+.txt-primary{
+    color: var(--primary);
+}
+.txt-secondary{
+    color: var(--secondary);
+}
+.txt-secondary-dark{
+    color: var(--secondary-dark);
+}
+.txt-dark{
+    color: var(--dark);
+}
+.txt-brand{
+    font-size: 3.125em;
+    font-family: 'Abril Fatface', sans-serif;
+}
+.txt-caption{
+    font-size: 1.875em;
+    font-weight: 600;
+    color: #fffdfd;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.txt-size-normal{
+    font-size: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+}
+.txt-size-small{
+    font-size: 0.9em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.txt-hero{
+    font-weight: 600;
+    font-size: 3.45em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.icon{
+    padding-right: 8px;
+}
+.icon-primary{
+    color: var(--primary);
+}
+.icon-large{
+    font-size: 2em;
+}
+/* background styles */
+.bg-color-primary{
+    background-color: var(--primary);
+}
+.bg-color-dark{
+    background-color: var(--dark);
+}
+.bg-color-gray{
+    background-color: var(--gray);
+}
+.bg-button{
+    background-color: #46344E;
+    border-radius: 5px;
+}
+a:not([href]) {
+    display: none;
+}
