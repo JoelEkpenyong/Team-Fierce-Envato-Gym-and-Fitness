@@ -8,6 +8,9 @@ a:hover, .btn-link:hover{
 #hero svg{
     border: .5em solid white;
 }
+.hero-img{
+	width:100%;
+}
 #form h4{
     color: #2c2c2c;
 }
